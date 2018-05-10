@@ -141,16 +141,3 @@ eg. model.evaluate(x_test,y_test)
 * RuntimeError: 如果模型从未编译。
 
 ---
-### 4.predict
-
-```predict(self, x, batch_size=None, verbose=0, steps=None)```
-为输入样本生成输出预测。
-输入样本逐批处理。
-
-#### 参数
-* x: 输入数据，Numpy 数组。
-* batch_size: 整数。如未指定，默认为 32。
-* verbose: 日志显示模式，0 或 1。
-* steps: 声明预测结束之前的总步数（批次样本）。默认值 None。
-返回
-预测的 Numpy 数组。
