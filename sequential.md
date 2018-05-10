@@ -96,7 +96,9 @@ categorical_labels = to_categorical(int_labels, num_classes=None)```
 
 ### 2.fit
 
-```fit(self, x=None, y=None, batch_size=None, epochs=1, verbose=1, callbacks=None, validation_split=0.0, validation_data=None, shuffle=True, class_weight=None, sample_weight=None, initial_epoch=0, steps_per_epoch=None, validation_steps=None)```
+```fit(self, x=None, y=None, batch_size=None, epochs=1, verbose=1,
+callbacks=None, validation_split=0.0, validation_data=None, shuffle=True, class_weight=None, sample_weight=None, initial_epoch=0, steps_per_epoch=None, validation_steps=None)```
+
 eg. model.fit(x_train,y_train,batch_size = 64, epochs = 10)
 
 以固定数量的轮次（数据集上的迭代）训练模型。
